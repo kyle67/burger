@@ -4,6 +4,7 @@
   "description": "This app will use node,express, mysql, handlebars,and orm",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
