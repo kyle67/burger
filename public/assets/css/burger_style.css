@@ -1,79 +1,93 @@
-body {
-    width: 99%;
-    height: 900px;
-    background-image: url('https://media.giphy.com/media/VV5wLHAvgFxtu/giphy.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    box-shadow: inset 0 0 0 1000px rgba(241, 241, 241, 0.50);
-  }
-  
-  #top-bar {
-    margin-top: 28px;
-    margin-top: 28px;
-    background: #a28242c9;
-    border: 1px solid #fdfdfd;
-    padding: 17px;
-    margin: 15px 0;
-    color: #fff;
-    border-radius: 5px;
-  }
-  
-  .spacing-reset {
-    padding: 0;
-    margin: 0;
-    border: 0;
-  }
-  
-  .list-reset {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    border: 0;
-  }
-  
-  @media (min-width: 1200px) {
-    .container {
-      width: 990px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .container {
-      width: 990px;
-    }
-  }
-  
-  .enter_section {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  #enter_text {
-    width: 400px;
-    height: 80px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: auto;
-    font-size: 38px;
-  }
-  
-  .task {
-    border-color: black;
-    border-style: solid;
-    border-width: 3px;
-  }
-  
-  .button-size {
-    padding-bottom: 20px;
-  }
-  
-  #text-enter-button {
-    margin-top: 10px;
-    margin-bottom: 18px;
-  }
-  
-  h1 {
-    color: #fff;
-  }
+li {
+  padding: 15px;
+  margin: 15px;
+  background: #ffffff;
+  list-style: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	align-content: right;
+}
+
+img {
+	align-content: center;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 2px 2px #ffffff;
+}
+
+h2 {
+	text-align: center;
+	text-shadow: 2px 2px #ffffff;
+}
+
+.create-update-form {
+  padding: 25px;
+  margin: 25px;
+  background: #eceff1;
+  border: 1px black solid;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+	border-radius: 15px;
+}
+
+html, body{
+	height: 100%;
+}
+body { 
+	background-image: url(http://glimpsesofcharleston.com/wp-content/uploads/2015/02/french-fries17908686_lrg.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #000000;  
+}
+
+div, body{
+	margin: 0;
+	padding: 0;
+	font-family: exo, sans-serif;
+	color: black;
+}
+
+.footer {
+	text-align: center;
+	text-shadow: 1px 1px #ffffff;
+}
+.wrapper {
+	height: 100%; 
+	width: 100%; 
+	}
+
+.message {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%; 
+  height:45%;
+  bottom: 0; 
+  display: block;
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 0.5em;
+}
